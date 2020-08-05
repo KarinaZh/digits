@@ -1,0 +1,52 @@
+body {
+	font-family: Varta, sans-serif;
+}
+
+.nav-link, .tel, .dropdown-item {
+	text-decoration: none;
+	font-size: 16px;
+	color: #1E266D;
+}
+
+.nav-link:hover {
+	color: #FF2E6A;
+}
+
+.dropdown-item:hover {
+	color: #FF2E6A;
+}
+
+.navbar-toggler {
+	background-color: #1E266D;
+}
+
+.btn {
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #3751FF;
+	padding: 0 10px;
+	border-radius: 30px;
+}
+
+@media (min-width: 837px) {
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}	
+}
+
+@media (min-width: 837px) {
+.navbar-expand-lg .navbar-collapse {
+	display: flex!important;
+	   flex-basis: auto;
+}
+
+.navbar-nav {
+	flex-direction: row;
+}
+
+.navbar-nav .dropdown-menu {
+	position: absolute;
+}
+
+}
