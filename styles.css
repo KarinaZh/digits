@@ -129,7 +129,7 @@ h4 {
 	background-color: #FFF9EA;
 }
 
-.purchase .card {
+.purchase .card, .contact .card {
 	border: none;
 	background: transparent;
 }
@@ -154,6 +154,36 @@ h4 {
 .card-img-bottom {
 	width: 64px;
 	height: 64px;
+}
+
+.contact {
+	background-color: #3751FF;
+	width: 100%;
+}
+
+.contact h2 {
+	color: #ffffff;
+	width: 400px;
+	text-align: left;
+}
+
+.contact .btn {
+	background-image: url(img/contact.png);
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-position: 10% 40%;
+	color: #455880;
+	font-weight: bold;
+	float: right;
+}
+
+.contact .card-text {
+	color: #DFE0EB;
+	text-align: right;
+}
+
+span {
+	color: #FED385;
 }
 
 
@@ -181,6 +211,22 @@ h4 {
 @media (max-width: 767px) {
     .about h2 {
 	width: 100%;
+}
+
+.form-inline {
+	display: none;
+}
+
+.contact h2 {
+	text-align: center;
+}
+
+.contact .btn {
+	margin-right: 20%;
+}
+
+.contact .card-text {
+	text-align: center;
 }
 }
 
