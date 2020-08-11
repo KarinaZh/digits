@@ -186,6 +186,41 @@ span {
 	color: #FED385;
 }
 
+.summary p {
+	font-size: 18px;
+	line-height: 26px;
+	color: #455880;
+	width: 300px;
+}
+
+.pages a, .demos a, .resources a {
+	font-size: 18px;
+	line-height: 40px;
+	color: #455880;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FF2E6A;
+}
+
+.privacy p {
+	font-size: 14px;
+	line-height: 27px;
+	color: rgba(69, 88, 128, 0.5);
+	font-weight: bold;
+}
+
+.privacy a {
+	font-size: 14px;
+	line-height: 27px;
+	color: #455880;
+	font-weight: bold;
+}
+
+.privacy {
+	border-top: 1px solid rgba(135, 146, 161, 0.08);
+}
 
 
 
